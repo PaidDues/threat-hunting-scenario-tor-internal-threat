@@ -4,7 +4,7 @@
 <img width="400" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/>
 
 # Threat Hunt Report: Unauthorized Tor Usage
-- [Scenario Creation](https://github.com/PaidDues/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation.md)
+- [Scenario Creation](https://github.com/PaidDues/threat-hunting-scenario-tor-internal-threat/blob/main/threat-hunting-scenario-tor-event-creation.md)
 
 ## Platforms and Languages Leveraged
 - Windows 11 Virtual Machines (Microsoft Azure)
@@ -216,10 +216,10 @@ with high confidence.
 | Attribute | Detail |
 |-----------|--------|
 | **Severity** | High |
-| **Confidence** | High — Confirmed via file, process, and network telemetry |
-| **User** | homelander |
-| **Device** | vought-lab-01 |
-| **Policy Violated** | Acceptable Use Policy — Unauthorized software installation and use of anonymizing tools |
+| **Confidence** | High: Confirmed via file, process, and network telemetry |
+| **User** | `homelander` |
+| **Device** | `vought-lab-01` |
+| **Policy Violated** | Acceptable Use Policy: Unauthorized software installation and use of anonymizing tools |
 
 **Risk Justification:**
 
